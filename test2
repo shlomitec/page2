@@ -1,3 +1,9 @@
 <script type="text/javascript">
        document.write("Hi, ");
+	   int a =5;
+	if (a==5 or a<5)
+		alert("the number is " + a);
+		a++;
+	else
+		alert("the numcer is end")
 </script>
