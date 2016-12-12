@@ -1,11 +1,17 @@
 # page2
-<!-- this script got from www.javascriptfreecode.com coded by: Krishna Eydat-->
-     <STYLE>BODY {
-SCROLLBAR-FACE-COLOR: red; SCROLLBAR-HIGHLIGHT-COLOR: gray; 
 
-SCROLLBAR-SHADOW-COLOR: black; SCROLLBAR-ARROW-COLOR: gray; 
+var today = new Date();
+var hourNow = today.getHours();
+var greeting;
 
-SCROLLBAR-TRACK-COLOR: black; SCROLLBAR-DARKSHADOW-COLOR: red
+if (hourNow > 18) {
+    greeting = 'Good evening!';
+} else if (hourNow > 12) {
+    greeting = 'Good afternoon!';
+} else if (hourNow > 0) {
+    greeting = 'Good morning!';
+} else {
+    greeting = 'Welcome!';
 }
-</STYLE>
 
+document.write('<h3>' + greeting + '</h3>');
