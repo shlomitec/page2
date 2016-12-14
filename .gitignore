@@ -1,5 +1,5 @@
-צריך לרשום פקודה שאומרת תתעלם מכל הקבצים שנמצאים בתיקיית
-NEW FOLDER
+#צריך לרשום פקודה שאומרת תתעלם מכל הקבצים שנמצאים בתיקיית
+
 
 
 $ git status
@@ -15,7 +15,7 @@ $ git status
     $ cat .git/info/exclude
     # ignore objects and archives, anywhere in the tree.
     *.[oa]
-    $ cat Documentation/.gitignore
+    $ cat New folder/.gitignore
     # ignore generated html files,
     *.html
     # except foo.html which is maintained by hand
